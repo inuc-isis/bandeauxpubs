@@ -37,13 +37,13 @@ public class ExempleDeScenario {
         //s.playOn(b2);
         
         // On ne doit pas pouvoir changer un scénario quand il est en train de se jouer
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {}
-        s.addEffect(new Rotate("2 tours à gauche", 180, 4000, false), 2);
+//        try {
+//            Thread.sleep(10000);
+//        } catch (InterruptedException e) {}
+//        s.addEffect(new Rotate("2 tours à gauche", 180, 4000, false), 2);
 
         // On rejoue le scénario sur b1 quand le premier jeu est fini
-        s.playOn(b1);
+//        s.playOn(b1);
 
     }
 
